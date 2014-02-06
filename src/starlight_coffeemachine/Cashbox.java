@@ -15,7 +15,6 @@ public class Cashbox
 	
 	public void returnCoins(){
 		System.out.printf("\tCashBox: Returning %d cents\n",credit);
-		credit = 0;
 	}
 	
 	public boolean haveYou(int amount){
